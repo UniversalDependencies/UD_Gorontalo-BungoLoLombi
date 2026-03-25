@@ -1,21 +1,18 @@
 # Summary
 
-... 1-2 sentences (see [release checklist](http://universaldependencies.org/contributing/release_checklist.html#the-readme-file) for README guidelines) ...
-
+Bungo lo Lombi is a Universal Dependencies parsed corpus of modern spoken Gorontalo as spoken in Gorontalo City, Gorontalo Province, Indonesia. It comprises fieldwork samples obtained by Colleen Alena O'Brien.
 
 # Introduction
 
-...
-
+Bungo lo Lombi is a corpus of modern spoken Gorontalo as spoken in Gorontalo City, Gorontalo Province, Indonesia. It comprises fieldwork samples obtained by Colleen Alena O'Brien.
 
 # Acknowledgments
 
-...
+* Key elicitation examples and explanations provided by Novi Usu.
 
 ## References
 
-* (citation)
-
+* Andrew Thomas Dyer and Colleen Alena O’Brien. 2025. Towards better annotation practices for symmetrical voice in Universal Dependencies. In Proceedings of the Eighth Workshop on Universal Dependencies (UDW, SyntaxFest 2025), pages 137–142, Ljubljana, Slovenia. Association for Computational Linguistics.
 
 # Changelog
 
