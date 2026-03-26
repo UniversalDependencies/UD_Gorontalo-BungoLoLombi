@@ -4,7 +4,13 @@ Bungo lo Lombi is a Universal Dependencies parsed corpus of modern spoken Goront
 
 # Introduction
 
-Bungo lo Lombi is a corpus of modern spoken Gorontalo as spoken in Gorontalo City, Gorontalo Province, Indonesia. It comprises fieldwork samples obtained by Colleen Alena O'Brien.
+Bungo lo Lombi is a corpus of modern spoken Gorontalo as spoken in Gorontalo City, Gorontalo Province, Indonesia. It comprises fieldwork samples obtained by Colleen Alena O'Brien. The complete data contains elicited examples and monologue and dialogue. At the moment, only elicited examples have been parsed.
+
+The parsed data is different from other Austronesian languages in Universal Dependencies in the following ways:
+* Dependency relations for core arguments use semantic sublabels in all verb phrases with voice-marking, e.g. _nsubj:actor_, _obj:patient_, _obj:agent_, etc. In this way, no voice is treated as default.
+* Some feature values are replaced, e.g. `Voice=Pat` for patient voice instead of `Voice=Pass`. We refer to the paper in the README for more details. In practice, these new values can be losslessly mapped back to pre-existing ones in order to share labels with other corpora.
+
+The name Bungo lo Lombi means "banana tree" in Gorontalo: a very useful, very versatile tree that provides a valuable fruit.
 
 # Acknowledgments
 
