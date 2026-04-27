@@ -1,0 +1,399 @@
+# sent_id = 1
+# text = Tiyo teye
+# text_en = ‘He/she is here.’
+# degree_of_spontaneity = elicited
+1	Tiyo	tiyo	PRON	_	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	Gloss=3.sg.piv|MSeg=Tiyo
+2	teye	teye	ADV	_	_	0	root	_	Gloss=here|MSeg=teye
+
+# sent_id = 2
+# text = tamohalawa hemohutu tayango bohu
+# text_en = ‘The fisherman is making a new net.’ (actor voice, realis)
+# degree_of_spontaneity = elicited
+1	tamohalawa	tamohalawa	NOUN	_	_	2	nsubj:agent	_	Gloss=fisherman|MSeg=tamohalawa
+2	hemohutu	hutu	VERB	_	Aspect=Prog|Voice=Act	0	root	_	Gloss=act.voice.real-make|MSeg=hemo-hutu
+3	tayango	tayango	NOUN	_	_	2	obj:patient	_	Gloss=net|MSeg=tayango
+4	bohu	bohu	ADJ	_	_	3	amod	_	Gloss=new|MSeg=bohu
+
+# sent_id = 3
+# text = Tayango bohu hepohutu lo tamohalawa
+# text_en = ‘The fisherman is making a new net.’ (net is subject…patient voice, realis)
+# degree_of_spontaneity = elicited
+1	Tayango	tayango	NOUN	_	_	3	nsubj:patient	_	Gloss=net|MSeg=tayango
+2	bohu	bohu	ADJ	_	_	1	amod	_	Gloss=new|MSeg=bohu
+3	hepohutu	hutu	VERB	_	Aspect=Prog|Voice=Pat	0	root	_	Gloss=undergoer1.voice.prog-make|MSeg=hepo-hutu
+4	lo	lo	ADP	_	Case=Npiv	5	case	_	Gloss=not.piv|MSeg=lo
+5	tamohalawa	tamohalawa	NOUN	_	_	3	obj:agent	_	Gloss=fisherman|MSeg=tamohalawa
+
+# sent_id = 4
+# text = Tabuwa boyito lohama binthe londo talai boyito
+# text_en = ‘The woman took the corn from the man.’ (actor voice, realis)
+# degree_of_spontaneity = elicited
+1	Tabuwa	tabuwa	NOUN	_	_	3	nsubj:agent	_	Gloss=woman|MSeg=Tabuwa
+2	boyito	boyito	DET	_	PronType=Dem	1	det	_	Gloss=dem|MSeg=boyito
+3	lohama	hama	VERB	_	Mood=Ind|Voice=Act	0	root	_	Gloss=actor.voice.real-take|MSeg=lo-hama
+4	binthe	binthe	NOUN	_	_	3	obj:patient	_	Gloss=corn|MSeg=binthe
+5	londo	londo	ADP	_	_	6	case	_	Gloss=obl|MSeg=londo
+6	talai	talai	NOUN	_	_	3	obl	_	Gloss=man|MSeg=talai
+7	boyito	boyito	DET	_	PronType=Dem	6	det	_	Gloss=dem|MSeg=boyito
+
+# sent_id = 5
+# text = Binthe hilama lo tabuwa boyito londo talai boyito
+# text_en = ‘The woman took the corn from the man.’ (patient voice…’corn’ is subject)
+# degree_of_spontaneity = elicited
+1	Binthe	binthe	NOUN	_	_	2	nsubj:patient	_	Gloss=corn|MSeg=Binthe
+2	hilama	hama	VERB	_	Mood=Ind|Voice=Pat	0	root	_	Gloss=<patientvoice.realis>take|MSeg=hilama
+3	lo	lo	ADP	_	Case=Npiv	4	case	_	Gloss=notpivot|MSeg=lo
+4	tabuwa	tabuwa	NOUN	_	_	2	obj:agent	_	Gloss=woman|MSeg=tabuwa
+5	boyito	boyito	DET	_	PronType=Dem	4	det	_	Gloss=dem|MSeg=boyito
+6	londo	londo	ADP	_	_	7	case	_	Gloss=obl|MSeg=londo
+7	talai	talai	NOUN	_	_	2	obl	_	Gloss=man|MSeg=talai
+8	boyito	boyito	DET	_	PronType=Dem	7	det	_	Gloss=dem|MSeg=boyito
+
+# sent_id = 6
+# text = Te Hasan pilohama li Dewi batade
+# text_en = ‘Dewi took the goat from Hasan.’ (Hasan is subject…undergoer 2 voice)
+# degree_of_spontaneity = elicited
+1	Te	te	ADP	_	Case=Piv|Gender=Masc	2	case	_	Gloss=pivot|MSeg=Te
+2	Hasan	Hasan	PROPN	_	_	3	nsubj:instrument	_	Gloss=hasan|MSeg=Hasan
+3	pilohama	hama	VERB	_	Mood=Ind|Voice=Ivoc	0	root	_	Gloss=UV2-take|MSeg=pilo-hama
+4	li	li	ADP	_	Case=Npiv|Gender=Fem	5	case	_	Gloss=not.pivot|MSeg=li
+5	Dewi	Dewi	PROPN	_	_	3	obj:agent	_	Gloss=dewi|MSeg=Dewi
+6	batade	batade	NOUN	_	_	3	iobj:patient	_	Gloss=goat|MSeg=batade
+
+# sent_id = 7
+# text = Ami mobuka lo buburu wawu tiliaya
+# text_en = ‘We will break the fast (Ramadan) with porridge and tiliaya (traditional food).’
+# degree_of_spontaneity = elicited
+1	Ami	ami	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj:agent	_	Gloss=1pl.pivot|MSeg=Ami
+2	mobuka	buka	VERB	_	Mood=Irr|Voice=Act	0	root	_	Gloss=act.irr-break.fast|MSeg=mo-buka
+3	lo	lo	ADP	_	Case=Npiv	4	case	_	Gloss=notpivot|MSeg=lo
+4	buburu	buburu	NOUN	_	_	2	obj:patient	_	Gloss=porridge|MSeg=buburu
+5	wawu	wawu	CCONJ	_	_	6	cc	_	Gloss=coordinator|MSeg=wawu
+6	tiliaya	tiliaya	NOUN	_	_	4	conj	_	Gloss=tiliaya|MSeg=tiliaya
+
+# sent_id = 8
+# text = Ti Ati lowundudu le Pulu
+# text_en = ‘Ati pushed Pulu.’ (Actor voice)
+# degree_of_spontaneity = elicited
+1	Ti	ti	ADP	_	Case=Piv|Gender=Fem	2	case	_	Gloss=pivot.fem|MSeg=Ti
+2	Ati	ati	PROPN	_	_	3	nsubj:agent	_	Gloss=name|MSeg=Ati
+3	lowundudu	wundudu	VERB	_	Mood=Ind|Voice=Act	0	root	_	Gloss=actvoice.realis-push|MSeg=lo-wundudu
+4	le	le	ADP	_	Case=Npiv|Gender=Masc	5	case	_	Gloss=nonpivot.masculine|MSeg=le
+5	Pulu	pulu	PROPN	_	_	3	obj:patient	_	Gloss=name|MSeg=Pulu
+
+# sent_id = 9
+# text = Te Pulu lodehu
+# text_en = ‘Pulu fell.’
+# degree_of_spontaneity = elicited
+1	Te	te	ADP	_	Case=Piv|Gender=Masc	2	case	_	Gloss=pivot.masc|MSeg=Te
+2	Pulu	pulu	PROPN	_	_	3	nsubj:agent	_	Gloss=name|MSeg=Pulu
+3	lodehu	dehu	VERB	_	Mood=Ind|Voice=Act	0	root	_	Gloss=actor.voice.real-push|MSeg=lo-dehu
+
+# sent_id = 10
+# text = Wau longohi salak ode mongololai boyito olango
+# text_en = ‘I gave those boys snake fruits yesterday.’
+# degree_of_spontaneity = elicited
+1	Wau	wau	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj:agent	_	Gloss=1sg|MSeg=Wau
+2	longohi	ohi	VERB	_	Mood=Ind|Voice=Act	0	root	_	Gloss=act.voice.real-give|MSeg=lo-ngohi
+3	salak	salak	NOUN	_	_	2	obj:patient	_	Gloss=snake.fruit|MSeg=salak
+4	ode	ode	ADP	_	_	5	case	_	Gloss=obl|MSeg=ode
+5	mongololai	lolai	NOUN	_	Number=Plur	2	obl	_	Gloss=plural=boy|MSeg=mongo=lolai
+6	boyito	boyito	DET	_	PronType=Dem	5	det	_	Gloss=dem|MSeg=boyito
+7	olango	olango	ADV	_	_	2	advmod	_	Gloss=yesterday|MSeg=olango
+
+# sent_id = 11
+# text = Salak yilohiu ode mongololai boyito olango
+# text_en = ‘I gave those boys snake fruit yesterday.’ (snake fruit is subject)
+# degree_of_spontaneity = elicited
+1	Salak	salak	NOUN	_	_	2	nsubj:patient	_	Gloss=snake.fruit|MSeg=salak
+2	yilohiu	ohi	VERB	_	Mood=Ind|Voice=Pat	0	root	_	Gloss=<patient.voice.real>give-1.sg|MSeg=y<il>ohi-u
+3	ode	ode	ADP	_	_	4	case	_	Gloss=obl|MSeg=ode
+4	mongololai	lolai	NOUN	_	Number=Plur	2	obl	_	Gloss=plural=boy|MSeg=mongo=lolai
+5	boyito	boyito	DET	_	PronType=Dem	4	det	_	Gloss=dem|MSeg=boyito
+6	olango	olango	ADV	_	_	2	advmod	_	Gloss=yesterday|MSeg=olango
+
+# sent_id = 12
+# text = Ti Bapu lo-pomulo binthe
+# text_en = ‘Grandpa planted corn.’
+# degree_of_spontaneity = elicited
+1	Ti	ti	ADP	_	Case=Piv|Gender=Fem	2	case	_	Gloss=pivot|MSeg=Ti
+2	Bapu	Bapu	PROPN	_	_	3	nsubj:agent	_	Gloss=grandpa|MSeg=Bapu
+3	lo-pomulo	pomulo	VERB	_	Mood=Ind|Voice=Act	0	root	_	Gloss=actorvoice.realis-plant|MSeg=lo-pomulo
+4	binthe	binthe	NOUN	_	_	3	obj:patient	_	Gloss=corn|MSeg=binthe
+
+# sent_id = 13
+# text = Binthe pilomulo li Bapu
+# text_en = ‘Grandpa planted corn (corn is subject).’
+# degree_of_spontaneity = elicited
+1	Binthe	binthe	NOUN	_	_	2	nsubj:patient	_	Gloss=corn|MSeg=Binthe
+2	pilomulo	pomulo	VERB	_	Mood=Ind|Voice=Pat	0	root	_	Gloss=<patient.voice.rea>plant|MSeg=p<il>omulo
+3	li	li	ADP	_	Case=Npiv|Gender=Fem	4	case	_	Gloss=not.pivot|MSeg=li
+4	Bapu	Bapu	PROPN	_	_	2	obj:agent	_	Gloss=grandpa|MSeg=Bapu
+
+# sent_id = 14
+# text = Ilengi pilo-pomulo li Bapu binthe
+# text_en = ‘Grandpa planted corn in the field (field is subject)’
+# degree_of_spontaneity = elicited
+1	Ilengi	ilengi	NOUN	_	_	2	nsubj:instrument	_	Gloss=field|MSeg=Ilengi
+2	pilo-pomulo	pomulo	VERB	_	Mood=Ind|Voice=Ivoc	0	root	_	Gloss=locationvoice/undergoer2.rea-plant|MSeg=pilo-pomulo
+3	li	li	ADP	_	Case=Npiv|Gender=Fem	4	case	_	Gloss=not.pivot|MSeg=li
+4	Bapu	Bapu	PROPN	_	_	2	obj:agent	_	Gloss=grandpa|MSeg=Bapu
+5	binthe	binthe	NOUN	_	_	2	iobj:patient	_	Gloss=corn|MSeg=binthe
+
+# sent_id = 15
+# text = Ti Nina kekengo daa
+# text_en = ‘Nina is very flirty.’
+# degree_of_spontaneity = elicited
+1	Ti	ti	ADP	_	Case=Piv|Gender=Fem	2	case	_	Gloss=piv|MSeg=Ti
+2	Nina	nina	PROPN	_	_	3	nsubj	_	Gloss=name|MSeg=Nina
+3	kekengo	kekengo	ADJ	_	_	0	root	_	Gloss=flirty|MSeg=kekengo
+4	daa	daa	ADV	_	_	3	advmod	_	Gloss=very|MSeg=daa
+
+# sent_id = 16
+# text = Ti Dewi lohama batade totolu londo le Hasan
+# text_en = ‘Dewi took three goats from Hasan.’
+# degree_of_spontaneity = elicited
+1	Ti	ti	ADP	_	Case=Piv|Gender=Fem	2	case	_	Gloss=pivot|MSeg=Ti
+2	Dewi	Dewi	PROPN	_	_	3	nsubj:agent	_	Gloss=name|MSeg=Dewi
+3	lohama	hama	VERB	_	Mood=Ind|Voice=Act	0	root	_	Gloss=actor.real-take|MSeg=lo-hama
+4	batade	batade	NOUN	_	_	3	obj:patient	_	Gloss=goat|MSeg=batade
+5	totolu	totulu	NUM	_	_	4	nummod	_	Gloss=three|MSeg=totolu
+6	londo	londo	ADP	_	_	8	case	_	Gloss=obl|MSeg=londo
+7	le	le	ADP	_	Case=Npiv|Gender=Masc	8	case	_	Gloss=not.pivot|MSeg=le
+8	Hasan	Hasan	PROPN	_	_	3	obl	_	Gloss=name|MSeg=Hasan
+
+# sent_id = 17
+# text = Tabuwa boyito lomindao tete olango
+# text_en = ‘The woman picked up the cat yesterday.’ (actor voice)
+# degree_of_spontaneity = elicited
+1	Tabuwa	tabuwa	NOUN	_	_	3	nsubj:agent	_	Gloss=woman|MSeg=Tabuwa
+2	boyito	boyito	DET	_	PronType=Dem	1	det	_	Gloss=DEM|MSeg=boyito
+3	lomindao	mindao	VERB	_	Mood=Ind|Voice=Act	0	root	_	Gloss=AV-pick.up|MSeg=lo-mindao
+4	tete	tete	NOUN	_	_	3	obj:patient	_	Gloss=cat|MSeg=tete
+5	olango	olango	ADV	_	_	3	obl	_	Gloss=yesterday|MSeg=olango
+
+# sent_id = 18
+# text = Tete bilindao lo tabuwa boyito olango
+# text_en = ‘The woman picked up the cat yesterday.’ (UV1 voice)
+# degree_of_spontaneity = elicited
+1	Tete	tete	NOUN	_	_	2	nsubj:patient	_	Gloss=cat|MSeg=Tete
+2	bilindao	mindao	VERB	_	Mood=Ind|Voice=Pat	0	root	_	Gloss=<PV>pick.up|MSeg=b<il>indao
+3	lo	lo	ADP	_	Case=Npiv	4	case	_	Gloss=npiv|MSeg=lo
+4	tabuwa	tabuwa	NOUN	_	_	2	obj:agent	_	Gloss=woman|MSeg=tabuwa
+5	boyito	boyito	DET	_	PronType=Dem	4	det	_	Gloss=DEM|MSeg=boyito
+6	olango	olango	ADV	_	_	2	obl	_	Gloss=yesterday|MSeg=olango
+
+# sent_id = 19
+# text = Wau longilu kopi wole Hasan wawu le Rahmat
+# text_en = ‘I drank coffee with Hasan and Rahmat yesterday.’
+# degree_of_spontaneity = elicited
+1	Wau	wau	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj:agent	_	Gloss=1sg|MSeg=Wau
+2	longilu	ilu	VERB	_	Mood=Ind|Voice=Act	0	root	_	Gloss=AV.rea-drink|MSeg=lo-ngilu
+3	kopi	kopi	NOUN	_	_	2	obj:patient	_	Gloss=coffee|MSeg=kopi
+4	wole	wole	ADP	_	_	5	case	_	Gloss=obl|MSeg=wole
+5	Hasan	Hasan	PROPN	_	_	2	obl	_	Gloss=name|MSeg=Hasan
+6	wawu	wawu	CCONJ	_	_	8	cc	_	Gloss=and|MSeg=wawu
+7	le	le	ADP	_	Case=Gen	8	case	_	Gloss=not.pivot|MSeg=le
+8	Rahmat	Rahmat	PROPN	_	_	5	conj	_	Gloss=name|MSeg=Rahmat
+
+# sent_id = 20
+# text = Ta kikino boyito lopiyaato bungo lo oyile olango
+# text_en = ‘The child climbed the mango tree yesterday.’
+# degree_of_spontaneity = elicited
+1	Ta	ta	ADP	_	_	2	clf	_	Gloss=human.marker|MSeg=Ta
+2	kikino	kikino	NOUN	_	_	4	nsubj:agent	_	Gloss=small|MSeg=kikino
+3	boyito	boyito	DET	_	PronType=Dem	2	det	_	Gloss=dem|MSeg=boyito
+4	lopiyaato	piyaato	VERB	_	Mood=Ind|Voice=Act	0	root	_	Gloss=AV.rea-climb|MSeg=lo-piyaato
+5	bungo	bungo	NOUN	_	_	4	obj:patient	_	Gloss=tree|MSeg=bungo
+6	lo	lo	ADP	_	Case=Gen	7	case	_	Gloss=npiv|MSeg=lo
+7	oyile	oyile	NOUN	_	_	5	nmod	_	Gloss=mango|MSeg=oyile
+8	olango	olango	ADV	_	_	4	advmod	_	Gloss=yesterday|MSeg=olango
+
+# sent_id = 21
+# text = Bungo lo oyile piliyaato lo ta kikino boyito
+# text_en = ‘The child climbed the tree.’ (tree is subject)
+# degree_of_spontaneity = elicited
+1	Bungo	bungo	NOUN	_	_	4	nsubj:patient	_	Gloss=tree|MSeg=Bungo
+2	lo	lo	ADP	_	Case=Gen	3	case	_	Gloss=npiv|MSeg=lo
+3	oyile	oyile	NOUN	_	_	1	nmod	_	Gloss=mango|MSeg=oyile
+4	piliyaato	piyaato	VERB	_	Mood=Ind|Voice=Pat	0	root	_	Gloss=<PV.real>|MSeg=p<il>iyaato
+5	lo	lo	ADP	_	Case=Npiv	7	case	_	Gloss=notpivot|MSeg=lo
+6	ta	ta	NOUN	_	_	7	clf	_	Gloss=human.marker|MSeg=ta
+7	kikino	kikino	NOUN	_	_	4	obj:agent	_	Gloss=small|MSeg=kikino
+8	boyito	boyito	DET	_	PronType=Dem	7	det	_	Gloss=dem|MSeg=boyito
+
+# sent_id = 22
+# text = Wau hemomiyaato mayi bungo lo oyile to wau donggo kikino
+# text_en = ‘I used to climb trees when I was a child.’
+# degree_of_spontaneity = elicited
+1	Wau	wau	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj:agent	_	Gloss=1sg|MSeg=Wau
+2	hemomiyaato	piyaato	VERB	_	Aspect=Prog|Voice=Act	0	root	_	Gloss=prog-clim|MSeg=hemo-miyaato
+3	mayi	mayi	PART	_	_	2	dep	_	Gloss=?|MSeg=mayi
+4	bungo	bungo	NOUN	_	_	2	obj:patient	_	Gloss=tree|MSeg=bungo
+5	lo	lo	ADP	_	_	6	case	_	Gloss=connector|MSeg=lo
+6	oyile	oyile	NOUN	_	_	4	nmod	_	Gloss=mango|MSeg=oyile
+7	to	to	ADP	_	_	10	case	_	Gloss=?|MSeg=to
+8	wau	wau	PRON	_	Number=Sing|Person=1|PronType=Prs	10	nsubj	_	Gloss=1sg|MSeg=wau
+9	donggo	donggo	ADV	_	_	10	advmod	_	Gloss=still|MSeg=donggo
+10	kikino	kikino	NOUN	_	_	2	obl	_	Gloss=small|MSeg=kikino
+
+# sent_id = 23
+# text = Ti Dewi hemongalipa oile
+# text_en = ‘Dewi is peeling mangoes (now).’ (Actor voice)
+# degree_of_spontaneity = elicited
+1	Ti	ti	ADP	_	Case=Piv|Gender=Fem	2	case	_	Gloss=piv.f|MSeg=Ti
+2	Dewi	Dewi	PROPN	_	_	3	nsubj:agent	_	Gloss=Dewi|MSeg=Dewi
+3	hemongalipa	alipo	VERB	_	Aspect=Prog|Voice=Act	0	root	_	Gloss=AV.prog-peel|MSeg=hemong-alipa
+4	oile	oile	NOUN	_	_	3	obj:patient	_	Gloss=mango|MSeg=oile
+
+# sent_id = 24
+# text = Oile healipo li Dewi lo pito
+# text_en = ‘Dewi is peeling mangoes with a knife (now).’ (Undergoer voice 1)
+# degree_of_spontaneity = elicited
+1	Oile	oile	NOUN	_	_	2	nsubj:patient	_	Gloss=mango|MSeg=Oile
+2	healipo	alipo	VERB	_	Aspect=Prog	0	root	_	Gloss=UV1.prog-peel|MSeg=he-alipo
+3	li	li	ADP	_	Case=Npiv|Gender=Fem	4	case	_	Gloss=npiv|MSeg=li
+4	Dewi	Dewi	PROPN	_	_	2	obj:agent	_	Gloss=dewi|MSeg=Dewi
+5	lo	lo	ADP	_	Case=Npiv	6	case	_	Gloss=npiv|MSeg=lo
+6	pito	pito	NOUN	_	_	2	obl	_	Gloss=knife|MSeg=pito
+
+# sent_id = 25
+# text = Pito hepongalipo li Dewi oile
+# text_en = ‘Dewi is peeling mangos with a knife (now).’ (Undergoer voice 2)
+# degree_of_spontaneity = elicited
+1	Pito	pito	NOUN	_	_	2	nsubj:instrument	_	Gloss=knife|MSeg=Pito
+2	hepongalipo	alipo	VERB	_	Aspect=Prog|Voice=Ivoc	0	root	_	Gloss=UV2.prog-peel|MSeg=hepong-alipo
+3	li	li	ADP	_	Case=Npiv|Gender=Fem	4	case	_	Gloss=npiv.f|MSeg=li
+4	Dewi	Dewi	PROPN	_	_	2	obj:agent	_	Gloss=Dewi|MSeg=Dewi
+5	oile	oile	NOUN	_	_	2	iobj:patient	_	Gloss=mango|MSeg=oile
+
+# sent_id = 26
+# text = Bulonggo pilotubu'u uponula
+# text_en = ‘I cooked fish with the pan.’ (instrument/Undergoer 2 voice)
+# degree_of_spontaneity = elicited
+1	Bulonggo	bulonggo	NOUN	_	_	2	nsubj:instrument	_	Gloss=pan|MSeg=Bulonggo
+2	pilotubu'u	tubu	VERB	_	Mood=Ind|Voice=Ivoc	0	root	_	Gloss=UV2.rea-cook-1SG|MSeg=pilo-tubu-'u
+3	uponula	uponula	NOUN	_	_	2	obj:patient	_	Gloss=fish|MSeg=uponula
+
+# sent_id = 27
+# text = Te Hasan totola to tambati mo’opotala
+# text_en = ‘Hasan lives in a dangerous place.’
+# degree_of_spontaneity = elicited
+1	Te	te	ADP	_	Case=Piv|Gender=Masc	2	case	_	Gloss=piv.masc|MSeg=te
+2	Hasan	Hasan	PROPN	_	_	3	nsubj	_	Gloss=hasan|MSeg=Hasan
+3	totola	totola	VERB	_	_	0	root	_	Gloss=live|MSeg=totola
+4	to	to	ADP	_	_	5	case	_	Gloss=obl|MSeg=to
+5	tambati	tambati	NOUN	_	_	3	obl	_	Gloss=place|MSeg=tambati
+6	mo’opotala	opotala	ADJ	_	Mood=Irr	5	amod	_	Gloss=irr-dangerous|MSeg=mo’opotala
+
+# sent_id = 28
+# text = Longola tabung boyito mololo
+# text_en = "Why is the girl sad?"
+# degree_of_spontaneity = elicited
+1	Longola	longola	ADV	_	_	4	advmod	_	Gloss=why
+2	tabung	tabung	NOUN	_	_	4	nsubj	_	Gloss=girl
+3	boyito	boyito	DET	_	PronType=Dem	2	det	_	Gloss=DEM
+4	mololo	lolo	ADJ	_	Mood=Irr	0	root	_	Gloss=sad-irr
+
+# sent_id = 29
+# text = Bele boyito bohu
+# text_en = "The houses are new"
+# degree_of_spontaneity = elicited
+1	Bele	bele	NOUN	_	_	3	nsubj	_	Gloss=house
+2	boyito	boyito	DET	_	PronType=Dem	1	det	_	Gloss=DEM
+3	bohu	bohu	ADJ	_	_	0	root	_	Gloss=new
+
+# sent_id = 30
+# text = Bele bele boyito bohu
+# degree_of_spontaneity = elicited
+1	Bele	bele	NOUN	_	_	4	nsubj	_	Gloss=house
+2	bele	bele	NOUN	_	_	1	compound:redup	_	Gloss=house
+3	boyito	boyito	DET	_	PronType=Dem	1	det	_	Gloss=DEM
+4	bohu	bohu	ADJ	_	_	0	root	_	Gloss=new
+
+# sent_id = 31
+# text = Kapali liyo damango
+# text_en = "His boat is big"
+# degree_of_spontaneity = elicited
+1	Kapali	kapali	NOUN	_	_	3	nsubj	_	Gloss=boat
+2	liyo	liyo	PRON	_	Case=Gen|Number=Sing|PronType=Prs	1	nmod:poss	_	Gloss=3.SG.GEN
+3	damango	damango	ADJ	_	_	0	root	_	Gloss=big
+
+# sent_id = 32
+# text = Te Pulu wutata li Ati
+# text_en = "Pulu is Ati's sibling"
+# degree_of_spontaneity = elicited
+1	Te	te	ADP	_	Case=Piv|Gender=Masc	2	case	_	Gloss=PIV.PROPN.MASC
+2	Pulu	pulu	PROPN	_	_	3	nsubj	_	Gloss=Pulu
+3	wutata	wutata	NOUN	_	_	0	root	_	Gloss=sibling
+4	li	li	ADP	_	Case=Gen|Gender=Fem	5	case	_	Gloss=NPIV.FEM
+5	Ati	Ati	PROPN	_	_	3	nmod	_	Gloss=ati
+
+# sent_id = 33
+# text = Te Pulu londo Limutu
+# text_en = "Pulu is from Limboto"
+# degree_of_spontaneity = elicited
+1	Te	te	ADP	_	Case=Piv|Gender=Masc	2	case	_	Gloss=PIV.PROPN.MASC
+2	Pulu	Pulu	PROPN	_	_	4	nsubj	_	Gloss=Pulu
+3	londo	londo	ADP	_	_	4	case	_	Gloss=from
+4	Limutu	Limutu	PROPN	_	_	0	root	_	Gloss=Limboto
+
+# sent_id = 34
+# text = Tiyo lolangi to bulalo
+# text_en = "He swam across the lake"
+# degree_of_spontaneity = elicited
+1	Tiyo	tiyo	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj:agent	_	Gloss=3.SG.PIV
+2	lolangi	langi	VERB	_	Mood=Ind|Voice=Act	0	root	_	_
+3	to	to	ADP	_	_	4	case	_	_
+4	bulalo	bulalo	NOUN	_	_	2	obl	_	Gloss=lake
+
+# sent_id = 35
+# text = Ti mama lodungoge ta unge hiyo-hiyongo
+# text_en = "Mom heard the baby crying"
+# degree_of_spontaneity = elicited
+1	Ti	ti	ADP	_	Case=Piv|Gender=Fem	2	case	_	_
+2	mama	mama	NOUN	_	_	3	nsubj:agent	_	Gloss=mom
+3	lodungoge	dungoge	VERB	_	Mood=Ind|Voice=Act	0	root	_	MSeg=lo-dungoge
+4	ta	ta	NOUN	_	_	5	clf	_	_
+5	unge	unge	NOUN	_	_	3	obj:patient	_	Gloss=baby
+6	hiyo-hiyongo	hiyo-hiyongo	VERB	_	Mood=Ind	5	xcomp	_	_
+
+# sent_id = 36
+# text = Ti Dewi lo-tubu uponula
+# text_en = "Dewi cooked the fish" (actor voice)
+# degree_of_spontaneity = elicited
+1	Ti	ti	ADP	_	Case=Piv|Gender=Fem	2	case	_	Gloss=PIV.FEM
+2	Dewi	Dewi	PROPN	_	_	3	nsubj:agent	_	Gloss=Dewi
+3	lo-tubu	tubu	VERB	_	Mood=Ind|Voice=Act	0	root	_	Gloss=AV-cook|MSeg=lo-tubu
+4	uponula	uponula	NOUN	_	_	3	obj:patient	_	Gloss=fish
+
+# sent_id = 37
+# text = Uponula tilubu li Dewi
+# text_en = "Dewi cooked the fish" (patient voice)
+# degree_of_spontaneity = elicited
+1	Uponula	uponula	NOUN	_	_	2	nsubj:patient	_	Gloss=fish
+2	tilubu	tubu	VERB	_	Mood=Ind|Voice=Pat	0	root	_	Gloss=<PV>-cook|MSeg=t<il>ubu
+3	li	li	ADP	_	Case=Npiv|Gender=Fem	4	case	_	Gloss=NPIV.FEM
+4	Dewi	Dewi	PROPN	_	_	2	obj:agent	_	Gloss=Dewi
+
+# sent_id = 38
+# text = Bulonggo pilo-tubu li Dewi uponula
+# text_en = "Dewi cooked the fish in the pan" (instrument voice)
+# degree_of_spontaneity = elicited
+1	Bulonggo	bulonggo	NOUN	_	_	2	nsubj:instrument	_	Gloss=pan
+2	pilo-tubu	tubu	VERB	_	Mood=Ind|Voice=Ivoc	0	root	_	Gloss=IV-cook|MSeg=pilo-tubu
+3	li	li	ADP	_	Case=Npiv|Gender=Fem	4	case	_	Gloss=NPIV.FEM
+4	Dewi	Dewi	PROPN	_	_	2	obj:agent	_	Gloss=Dewi
+5	uponula	uponula	NOUN	_	_	2	iobj:patient	_	Gloss=fish
+
+# sent_id = 39
+# text = Uponula tilubu li Dewi lo bulonggo
+# text_en = "Dewi cooked the fish in the pan" (patient voice)
+# degree_of_spontaneity = elicited
+1	Uponula	uponula	NOUN	_	_	2	nsubj:patient	_	Gloss=fish
+2	tilubu	tubu	VERB	_	Mood=Ind|Voice=Pat	0	root	_	MSeg=t<il>ubu
+3	li	li	ADP	_	Case=Npiv|Gender=Fem	4	case	_	Gloss=NPIV.FEM
+4	Dewi	Dewi	PROPN	_	_	2	obj:agent	_	Gloss=Dewi
+5	lo	lo	ADP	_	Case=Npiv	6	case	_	_
+6	bulonggo	bulonggo	NOUN	_	_	2	iobj:instrument	_	Gloss=pan
+
