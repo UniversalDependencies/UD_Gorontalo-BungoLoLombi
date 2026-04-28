@@ -6,10 +6,10 @@
 2	teye	teye	ADV	_	_	0	root	_	Gloss=here|MSeg=teye
 
 # sent_id = 2
-# text = tamohalawa hemohutu tayango bohu
+# text = Tamohalawa hemohutu tayango bohu
 # text_en = ‘The fisherman is making a new net.’ (actor voice, realis)
 # degree_of_spontaneity = elicited
-1	tamohalawa	tamohalawa	NOUN	_	_	2	nsubj:agent	_	Gloss=fisherman|MSeg=tamohalawa
+1	Tamohalawa	tamohalawa	NOUN	_	_	2	nsubj:agent	_	Gloss=fisherman|MSeg=tamohalawa
 2	hemohutu	hutu	VERB	_	Aspect=Prog|Voice=Act	0	root	_	Gloss=act.voice.real-make|MSeg=hemo-hutu
 3	tayango	tayango	NOUN	_	_	2	obj:patient	_	Gloss=net|MSeg=tayango
 4	bohu	bohu	ADJ	_	_	3	amod	_	Gloss=new|MSeg=bohu
