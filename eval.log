@@ -1,0 +1,39 @@
+Running the following version of UD tools:
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue May 5 17:01:41 2026 +0200
+Evaluating the following revision of UD_Gorontalo-BungoLoLombi:
+commit 88c3efc109193c24d6b498942233ee81b60fce35
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Wed May 6 09:27:51 2026 +0200
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'gor_bungololombi'
+Language code (from CoNLL-U file name) = 'gor'
+Found the following data files: gor_bungololombi-ud-test.conllu
+Size: counted 205 of 205 words (nodes).
+Size: min(0, log((N/1000)**2)) = 0.
+Size: maximum value 13.815511 is for 1000000 words or more.
+Split: Did not find more than 10000 training words.
+Split: Did not find at least 10000 development words.
+Split: Did not find at least 10000 test words.
+Lemmas: source of annotation (from README) factor is 1.
+Universal POS tags: 11 out of 17 found in the corpus.
+Universal POS tags: source of annotation (from README) factor is 1.
+Features: 89 out of 205 total words have one or more features.
+Features: source of annotation (from README) factor is 1.
+Universal relations: 17 out of 37 found in the corpus.
+Universal relations: source of annotation (from README) factor is 1.
+Genres: found 1 out of 18 known.
+/net/work/people/zeman/unidep/tools/validate.py --lang gor --max-err=10 UD_Gorontalo-BungoLoLombi/gor_bungololombi-ud-test.conllu
+*** PASSED ***
+Validity: 1
+(weight=0.111111111111111) * (score{features}=0.5) = 0.0555555555555556
+(weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
+(weight=0.111111111111111) * (score{lemmas}=1) = 0.111111111111111
+(weight=0.37037037037037) * (score{size}=0) = 0
+(weight=0.0740740740740741) * (score{split}=0.01) = 0.000740740740740741
+(weight=0.111111111111111) * (score{tags}=0.647058823529412) = 0.0718954248366013
+(weight=0.111111111111111) * (score{udeprels}=0.459459459459459) = 0.0510510510510511
+(TOTAL score=0.296526722801233) * (availability=1) * (validity=1) = 0.296526722801233
+STARS = 1.5
+UD_Gorontalo-BungoLoLombi	0.296526722801233	1.5
