@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>39</sentences><tokens>205</tokens><words>205</words><fused>0</fused></total>
+    <train><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></train>
+    <dev><sentences>0</sentences><tokens>0</tokens><words>0</words><fused>0</fused></dev>
+    <test><sentences>39</sentences><tokens>205</tokens><words>205</words><fused>0</fused></test>
+  </size>
+  <lemmas unique="80" /><!-- boyito, lo, Dewi, li, ti, binthe, olango, te, tubu, uponula, Hasan, bohu, hama, londo, pulu -->
+  <forms unique="94" /><!-- boyito, lo, Dewi, li, Ti, Te, binthe, olango, uponula, Hasan, Pulu, bohu, londo, tabuwa, wau -->
+  <fusions unique="0" /><!--  -->
+  <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
+  <tags unique="11">
+    <tag name="ADJ">8</tag><!-- bohu, damango, kekengo, lolo, opotala -->
+    <tag name="ADP">45</tag><!-- lo, li, ti, te, londo, le, to, ode, ta, wole -->
+    <tag name="ADV">9</tag><!-- olango, daa, donggo, longola, teye -->
+    <tag name="CCONJ">2</tag><!-- wawu -->
+    <tag name="DET">13</tag><!-- boyito -->
+    <tag name="NOUN">61</tag><!-- binthe, uponula, tabuwa, bele, bulonggo, bungo, kikino, oile, oyile, batade -->
+    <tag name="NUM">1</tag><!-- totulu -->
+    <tag name="PART">1</tag><!-- mayi -->
+    <tag name="PRON">8</tag><!-- wau, tiyo, ami, liyo -->
+    <tag name="PROPN">25</tag><!-- Dewi, Hasan, pulu, Bapu, ati, Limutu, Rahmat, nina -->
+    <tag name="VERB">32</tag><!-- tubu, hama, alipo, piyaato, pomulo, hutu, mindao, ohi, buka, dehu -->
+  </tags>
+  <!-- Statistics of features and values. The comments show the most frequent word forms. -->
+  <feats unique="18">
+    <feat name="Aspect" value="Prog" upos="VERB">6</feat><!-- healipo, hemohutu, hemomiyaato, hemongalipa, hepohutu, hepongalipo -->
+    <feat name="Case" value="Gen" upos="ADP,PRON">5</feat><!-- lo, le, li, liyo -->
+    <feat name="Case" value="Nom" upos="PRON">2</feat><!-- Ami, Tiyo -->
+    <feat name="Case" value="Npiv" upos="ADP">17</feat><!-- li, lo, le -->
+    <feat name="Case" value="Piv" upos="ADP">12</feat><!-- Ti, Te -->
+    <feat name="Gender" value="Fem" upos="ADP">16</feat><!-- li, Ti -->
+    <feat name="Gender" value="Masc" upos="ADP">7</feat><!-- Te, le -->
+    <feat name="Mood" value="Ind" upos="VERB">24</feat><!-- lohama, tilubu, bilindao, hilama, hiyo-hiyongo, lo-pomulo, lo-tubu, lodehu, lodungoge, lolangi -->
+    <feat name="Mood" value="Irr" upos="ADJ,VERB">3</feat><!-- mobuka, mololo, mo’opotala -->
+    <feat name="Number" value="Plur" upos="NOUN,PRON">3</feat><!-- mongololai, Ami -->
+    <feat name="Number" value="Sing" upos="PRON">7</feat><!-- wau, Tiyo, liyo -->
+    <feat name="Person" value="1" upos="PRON">5</feat><!-- wau, Ami -->
+    <feat name="Person" value="3" upos="PRON">2</feat><!-- Tiyo -->
+    <feat name="PronType" value="Dem" upos="DET">13</feat><!-- boyito -->
+    <feat name="PronType" value="Prs" upos="PRON">8</feat><!-- wau, Tiyo, Ami, liyo -->
+    <feat name="Voice" value="Act" upos="VERB">16</feat><!-- lohama, hemohutu, hemomiyaato, hemongalipa, lo-pomulo, lo-tubu, lodehu, lodungoge, lolangi, lomindao -->
+    <feat name="Voice" value="Ivoc" upos="VERB">5</feat><!-- hepongalipo, pilo-pomulo, pilo-tubu, pilohama, pilotubu'u -->
+    <feat name="Voice" value="Pat" upos="VERB">8</feat><!-- tilubu, bilindao, hepohutu, hilama, piliyaato, pilomulo, yilohiu -->
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="23">
+    <dep name="advmod">6</dep>
+    <dep name="amod">3</dep>
+    <dep name="case">44</dep>
+    <dep name="cc">2</dep>
+    <dep name="clf">3</dep>
+    <dep name="compound:redup">1</dep>
+    <dep name="conj">2</dep>
+    <dep name="dep">1</dep>
+    <dep name="det">13</dep>
+    <dep name="iobj:instrument">1</dep>
+    <dep name="iobj:patient">4</dep>
+    <dep name="nmod">4</dep>
+    <dep name="nmod:poss">1</dep>
+    <dep name="nsubj">10</dep>
+    <dep name="nsubj:agent">16</dep>
+    <dep name="nsubj:instrument">5</dep>
+    <dep name="nsubj:patient">9</dep>
+    <dep name="nummod">1</dep>
+    <dep name="obj:agent">12</dep>
+    <dep name="obj:patient">15</dep>
+    <dep name="obl">12</dep>
+    <dep name="root">39</dep>
+    <dep name="xcomp">1</dep>
+  </deps>
+</treebank>
